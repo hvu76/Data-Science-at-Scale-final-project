@@ -1,6 +1,6 @@
 # Data Science at Scale Final Project
 
-In this project, our team of 4 were tasked with creating an end-to-end data intensive application that tracks the inventory of bikes and available docks at a given station with the Citibike Bike Sharing system in NYC. Our team was assigned station 4. To complete this project, you must apply the skills you have learned in DSCC 202-402 Data Science at Scale. This sort of forecasting application could be the basis of how an application like Bike Angels runs (https://citibikenyc.com/bike-angels) and helps keep the system running smoothly with the
+In this project, our team of 4 were tasked with creating an end-to-end data intensive application that tracks the inventory of bikes and available docks at a given station with the Citibike Bike Sharing system in NYC. Our team was assigned station 1 Ave and E 68 St. To complete this project, you must apply the skills you have learned in DSCC 202-402 Data Science at Scale. This sort of forecasting application could be the basis of how an application like Bike Angels runs (https://citibikenyc.com/bike-angels) and helps keep the system running smoothly with the
 help of Data-Intensive Applications and Human participation.
 
 The application has 4 components:

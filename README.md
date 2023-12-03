@@ -8,6 +8,7 @@ The application has 4 components:
 
    All the data available was maintained in a raw data directory in DBFS. In addition, a set of delta tables is updated every 30 minutes by an automated job that runs on the platform. We developed an ETL pipeline that extracted and stored the information about the station and weather in Bronze tables with defined schemas. We utilized spark streaming jobs to continually load real-time data into the tables as well as Partitioning and Z-ordering to optimize delta tables for our application. 
 2. Exploratory Data Analysis (EDA)
+
    After the necessary data were collected, we conducted exploratory data analysis to answer some key questions to understand the usage of bikes at our station, such as
 - The monthly trip trends for our assigned station
 - The daily trip trends for our given station
@@ -16,6 +17,7 @@ The application has 4 components:
 3. Modeling and MLOps
   
   Considering historical data, we built a forecasting model that infers net bike change at our station by the hour. We registered our model at the staging and production level within the Databricks model registry. we also stored artifacts in each MLflow experiment run to be used by the application to retrieve the staging and production models. And we tuned the model hyperparameters using the MLflow experiments and hyperparameter scaling (spark trials, hyper-opts).
+  
 4. Application
   
   Finally, we created a notebook that displayed the following
